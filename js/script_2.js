@@ -7,10 +7,10 @@ function exercise_2(){ //Объявление функции
     } else { //Если все верно, тогда
         if (number_1 < number_2){ //Объявление условия на проверку
             document.getElementById("output_exercise_2").innerHTML = "Первое число меньше"; //Вывод
-            return; //Возвращение функции
+            return; 
         } else{ //Если не прошел по условию проверки, тогда
             document.getElementById("output_exercise_2").innerHTML = "Второе число меньше"; //Вывод
-            return; //Возвращение функции
+            return;
         }
     }
 }
